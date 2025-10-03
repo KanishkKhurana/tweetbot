@@ -1,0 +1,17 @@
+node_modules
+npm-debug.log
+Dockerfile
+.dockerignore
+.git
+.gitignore
+.env
+.env.*
+*.log
+*.swp
+*.tmp
+.cache
+coverage
+README.md
+
+# MacOS
+.DS_Store
