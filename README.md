@@ -85,7 +85,9 @@ API documentation
 ## Response Format
 
 ### Success Response
+```
 "Tweet content here..."
+```
 
 ### Error Response
 ```json
