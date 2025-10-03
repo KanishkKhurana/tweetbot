@@ -85,45 +85,7 @@ API documentation
 ## Response Format
 
 ### Success Response
-```json
-{
-  "success": true,
-  "data": {
-    "id": "1234567890",
-    "text": "Tweet content here...",
-    "created_at": "2023-01-01T12:00:00.000Z",
-    "author": {
-      "id": "123456789",
-      "name": "User Name",
-      "username": "username",
-      "verified": true,
-      "public_metrics": {
-        "followers_count": 1000,
-        "following_count": 500,
-        "tweet_count": 2000
-      },
-      "profile_image_url": "https://..."
-    },
-    "public_metrics": {
-      "retweet_count": 10,
-      "like_count": 50,
-      "reply_count": 5,
-      "quote_count": 2
-    },
-    "entities": {
-      "hashtags": [...],
-      "mentions": [...],
-      "urls": [...]
-    },
-    "media": [...],
-    "lang": "en",
-    "possibly_sensitive": false,
-    "referenced_tweets": [...],
-    "reply_settings": "everyone",
-    "source": "Twitter for iPhone"
-  }
-}
-```
+"Tweet content here..."
 
 ### Error Response
 ```json
